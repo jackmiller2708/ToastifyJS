@@ -21,7 +21,7 @@ const NAME_ITEM = "el-toast",
 ;
 
 // Create the template
-let template_container = buildTemplate(document.querySelector('body'));
+buildTemplate(document.querySelector('body'));
 
 
 let $templateItem = document.querySelector("#elToastItem");
